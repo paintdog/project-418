@@ -1,4 +1,4 @@
-# duplicates finder
+# find duplicates
 import os
 import hashlib
 
