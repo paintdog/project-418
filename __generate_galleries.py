@@ -1,7 +1,7 @@
 import os
 import webbrowser
 
-PATH = "C:/XXXXXXXXXX/"
+PATH = "./png/"
 
 
 # __style__.css
@@ -66,7 +66,7 @@ html_pic = """<!DOCTYPE html>
     </header>
 
     <div>
-      <img src="{image}" style="display: block; margin-left: auto; margin-right: auto;" />
+      <img src="{image}" width="100%" style="display: block; margin-left: auto; margin-right: auto;" />
     </div>
 
     <footer>
